@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aquamarine;
+    width: 100vw;
+    height: 5vh;
+    top: 0;
+    text-align: right;
+    position: relative;
+}
+
+.drpbutton {
+    font-size: 2vw;
+    float: left;
+    margin-left: 0.5vw;
+}
+
+.dropdown-content a {
+    font-size: 2vw;
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner img{
+    width: 30vw;
+    height: 60vh;
+    margin-left: 2vw;
+    float: left;
+}
+
+#text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(71, 34, 34);
+    font-size: 3vh;
+    font-weight: 1vw;
+    float: right;
+    margin: 2vw;
+}
+
+footer {
+    background-color: aquamarine;
+    width: 100vw;
+    height: 10vh;
+    bottom: 0;
+    position: fixed;
+}
+
+.icon {
+    float: right;
+}
+
+#twitter {
+	background: url('images/sprite3.png') no-repeat -66px -72px;
+	width: 67px;
+	height: 66px;
+}
+
+#instagram {
+    background: url('images/sprite3.png') no-repeat -290px -221px;
+	width: 66px;
+	height: 66px;
+}
+
+
+#facebook {
+	background: url('images/sprite3.png') no-repeat -439px -146px;
+	width: 66px;
+	height: 66px;
+}
+
+#pinterest{
+    background: url('images/sprite3.png') no-repeat -141px -221px;
+	width: 66px;
+	height: 66px;
+}
+
+@media screen and (max-width: 640px) {
+    
+}
